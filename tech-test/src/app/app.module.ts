@@ -19,7 +19,7 @@ import { AddTodoComponent } from './components/add-todo/add-todo.component';
 import { AllTodosComponent } from './components/all-todos/all-todos.component';
 import { EditTodosComponent } from './components/edit-todos/edit-todos.component';
 import { DeleteDialogTodoComponent } from './components/delete-dialog-todo/delete-dialog-todo.component';
-import { MatCheckboxModule } from "@angular/material/checkbox";
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 
 @NgModule({

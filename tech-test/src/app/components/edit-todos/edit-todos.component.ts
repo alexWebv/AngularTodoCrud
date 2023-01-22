@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { TodoService } from '../../services/todo.service';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { Subject } from "rxjs";
-import { take } from "rxjs/operators";
+import { Subject } from 'rxjs';
+import { take } from 'rxjs/operators';
 
 @Component({
     selector: 'app-edit-todos',

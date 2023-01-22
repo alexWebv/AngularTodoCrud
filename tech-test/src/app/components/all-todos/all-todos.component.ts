@@ -4,8 +4,8 @@ import { Todo } from '../../models/todo';
 import { TodoService } from '../../services/todo.service';
 import { DeleteDialogTodoComponent } from '../delete-dialog-todo/delete-dialog-todo.component';
 import { MatTableDataSource } from '@angular/material/table';
-import { Subject } from "rxjs";
-import { take, takeUntil } from "rxjs/operators";
+import { Subject } from 'rxjs';
+import { take, takeUntil } from 'rxjs/operators';
 
 @Component({
   selector: 'app-all-todos',
