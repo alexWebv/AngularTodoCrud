@@ -15,10 +15,10 @@ import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
-import { AddTodoComponent } from './add-todo/add-todo.component';
-import { AllTodosComponent } from './all-todos/all-todos.component';
-import { EditTodosComponent } from './edit-todos/edit-todos.component';
-import { DeleteDialogTodoComponent } from './delete-dialog-todo/delete-dialog-todo.component';
+import { AddTodoComponent } from './components/add-todo/add-todo.component';
+import { AllTodosComponent } from './components/all-todos/all-todos.component';
+import { EditTodosComponent } from './components/edit-todos/edit-todos.component';
+import { DeleteDialogTodoComponent } from './components/delete-dialog-todo/delete-dialog-todo.component';
 import { MatCheckboxModule } from "@angular/material/checkbox";
 
 

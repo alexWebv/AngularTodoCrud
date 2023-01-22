@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { Todo } from '../todo';
-import { TodoService } from '../todo.service';
+import { Todo } from '../../models/todo';
+import { TodoService } from '../../services/todo.service';
 import { DeleteDialogTodoComponent } from '../delete-dialog-todo/delete-dialog-todo.component';
 import { MatTableDataSource } from '@angular/material/table';
 import { Subject } from "rxjs";

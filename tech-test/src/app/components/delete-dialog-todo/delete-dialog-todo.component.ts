@@ -1,7 +1,7 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { take } from 'rxjs/operators';
-import { TodoService } from '../todo.service';
+import { TodoService } from '../../services/todo.service';
 
 @Component({
   selector: 'app-delete-dialog-todo',
